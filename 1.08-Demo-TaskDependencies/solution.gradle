@@ -1,0 +1,58 @@
+task putOnSocks {
+    // group "Dressing up"
+    doLast {
+        println "Putting on socks."
+    }
+}
+
+task putOnShoes {
+    // group "Dressing up"
+    dependsOn "putOnSocks"
+    doLast {
+        println "Putting on shoes."
+    }
+}
+
+task eatBreakfast {
+    group "Eating etc"
+    finalizedBy "brushYourTeeth"
+    doLast {
+        println "Ah delicious breakfast..."
+    }
+}
+
+task brushYourTeeth {
+    group "Eating etc"
+    doLast {
+        println "Brush brush teeth."
+    }
+}
+
+task takeShower {
+    doLast {
+        println "Showering..."
+    }
+}
+
+task putOnFragrance {
+    // shouldRunAfter "takeShower"
+    mustRunAfter "takeShower"
+    doLast {
+        println "Smellin' fresh!"
+    }
+}
+
+task getReady {
+    // Remember that when assigning a collection to a property we must
+    // use the equals sign
+    dependsOn = ["takeShower", "eatBreakfast", "putOnShoes"]
+}
+
+putOnShoes.mustRunAfter takeShower
+
+task getEquipped {
+    dependsOn tasks.matching{ task -> task.name.startsWith("putOn")}
+    doLast {
+        println "All geared up!"
+    }
+}
