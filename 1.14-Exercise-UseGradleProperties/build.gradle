@@ -20,8 +20,12 @@ in the webOutputDir property via the command line).
 
 */
 
+ext {
+    baseNameAsProjectProperty = 'web2'
+}
+
 task bundleWeb(type: Zip) {
-    baseName = 'web'
+    baseName = baseNameAsProjectProperty
     destinationDir = file(webOutputDir)
 
     from 'src/web'
