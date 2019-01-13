@@ -1,0 +1,16 @@
+task printGreeting {
+    doLast {
+        println greeting
+    }
+}
+
+ext {
+    greeting = "Hello from inside build script"
+}
+
+// gradle -b solution.gradle printGreeting
+// prints the greeting from the properties file
+
+// gradle -b solution.gradle -Pgreeting="Hello from the command line" pG
+// prints the greeting from the command line
+// pG is just shorthand of the printGreeting task name
