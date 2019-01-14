@@ -5,7 +5,13 @@ build script.
 
 */
 
-apply plugin: "java"
+// old way - still works
+// apply plugin: "java"
+
+// new way
+plugins {
+    id 'java'
+}
 
 
 
