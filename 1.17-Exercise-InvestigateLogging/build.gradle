@@ -16,11 +16,17 @@ Exercises:
 4. Execute the "hello" task and confirm the output.
 5. Execute the "hello" task with the appropriate command line options such
    that the text "Hello World" is no longer written to the console output.
+   - executed with -w
 6. Uncomment and run the "derpy" task below, then use "--stacktrace" to find
    the error.
+   - Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMissingMethodException: 
+     Could not find method primp() for arguments [Herp de derp] 
+     on task ':derpy' of type org.gradle.api.DefaultTask.
+     at org.gradle.internal.metaobject.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:179)
 7. CHALLENGE! Log "Catch me if you can" at DEBUG level, then use grep (or
     findstr on Windows) to find that message in the logs.
-
+    - gradle hello -d > gradle_out.txt
+    - findstr /c:"Catch me if you can" gradle_out.txt
 */
 
 task hello(type: HelloTask)
@@ -28,12 +34,14 @@ task hello(type: HelloTask)
 class HelloTask extends DefaultTask {
     @TaskAction
     void doAction() {
+        logger.info('Before printing Hello World')
         println 'Hello World'
+        logger.info('After printing Hello World')
+        logger.debug('Catch me if you can')
     }
 }
 
-/*
-task derpy << {
-    primp "Herp de derp"
-}
-*/
+
+// task derpy {
+//     primp "Herp de derp"
+// }

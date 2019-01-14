@@ -1,0 +1,287 @@
+03:49:33.832 [INFO] [org.gradle.internal.nativeintegration.services.NativeServices] Initialized native services in: C:\Users\bobtal\.gradle\native
+03:49:34.024 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+03:49:34.146 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Executing build bfedb46d-e43d-4ac6-8d8d-44f6c7ebd483 in daemon client {pid=8372}
+03:49:34.210 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+03:49:34.212 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+03:49:34.213 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+03:49:34.213 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+03:49:34.213 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller
+03:49:34.215 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.215 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:6dee:72c2:2f27:d20f%eth0
+03:49:34.215 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+03:49:34.217 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.217 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+03:49:34.221 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.221 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+03:49:34.223 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.223 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+03:49:34.225 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.225 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+03:49:34.227 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.227 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:d50a:d7c0:ca9f:1af9%eth3
+03:49:34.228 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (RFCOMM Protocol TDI)
+03:49:34.229 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.229 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+03:49:34.231 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.231 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+03:49:34.233 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.233 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:b1ed:df04:229c:ad7a%wlan0
+03:49:34.233 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+03:49:34.236 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.236 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Teredo Tunneling Pseudo-Interface
+03:49:34.238 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.238 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2001:0:5ef5:79fb:b2:325d:3f57:ff98
+03:49:34.238 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:b2:325d:3f57:ff98%net4
+03:49:34.238 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm Atheros QCA9377 Wireless Network Adapter
+03:49:34.240 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.240 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.0.103
+03:49:34.240 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:992c:ba36:b991:2374%wlan1
+03:49:34.240 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+03:49:34.242 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.242 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+03:49:34.244 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.244 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+03:49:34.246 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.246 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+03:49:34.248 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.248 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+03:49:34.250 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.250 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+03:49:34.252 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.252 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm Atheros QCA9377 Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000
+03:49:34.254 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.254 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm Atheros QCA9377 Wireless Network Adapter-Virtual WiFi Filter Driver-0000
+03:49:34.256 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.257 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm Atheros QCA9377 Wireless Network Adapter-Native WiFi Filter Driver-0000
+03:49:34.259 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.259 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm Atheros QCA9377 Wireless Network Adapter-QoS Packet Scheduler-0000
+03:49:34.261 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.261 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Qualcomm Atheros QCA9377 Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+03:49:34.263 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.263 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+03:49:34.265 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.265 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+03:49:34.267 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.267 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+03:49:34.269 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.269 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+03:49:34.271 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.271 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+03:49:34.275 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.275 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+03:49:34.282 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.282 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+03:49:34.286 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.286 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+03:49:34.289 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.289 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+03:49:34.292 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.292 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+03:49:34.294 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+03:49:34.300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+03:49:34.302 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+03:49:34.306 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+03:49:34.309 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Attempting to connect to [ca629be7-e97c-4a24-b223-fad0ebe549f3 port:59656, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+03:49:34.309 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Trying to connect to address /127.0.0.1.
+03:49:34.312 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Connected to address /127.0.0.1:59656.
+03:49:34.360 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Connected to daemon DaemonInfo{pid=14632, address=[ca629be7-e97c-4a24-b223-fad0ebe549f3 port:59656, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1547434140569, context=DefaultDaemonContext[uid=634ec844-0bf8-4f15-8011-afa4e0f4724d,javaHome=C:\Program Files\Java\jdk1.8.0_144,daemonRegistryDir=C:\Users\bobtal\.gradle\daemon,pid=14632,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]}. Dispatching request Build{id=bfedb46d-e43d-4ac6-8d8d-44f6c7ebd483, currentDir=C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging}.
+03:49:34.360 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Build
+03:49:34.377 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result org.gradle.launcher.daemon.protocol.BuildStarted@6150c3ec from daemon DaemonInfo{pid=14632, address=[ca629be7-e97c-4a24-b223-fad0ebe549f3 port:59656, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1547434140569, context=DefaultDaemonContext[uid=634ec844-0bf8-4f15-8011-afa4e0f4724d,javaHome=C:\Program Files\Java\jdk1.8.0_144,daemonRegistryDir=C:\Users\bobtal\.gradle\daemon,pid=14632,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be starting).
+03:49:34.377 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 14632). The daemon log file: C:\Users\bobtal\.gradle\daemon\5.1.1\daemon-14632.out.log
+03:49:34.377 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 19th build in daemon [uptime: 1 hrs 53 mins 3.761 secs, performance: 97%, no major garbage collections]
+03:49:34.377 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+03:49:34.377 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=634ec844-0bf8-4f15-8011-afa4e0f4724d,javaHome=C:\Program Files\Java\jdk1.8.0_144,daemonRegistryDir=C:\Users\bobtal\.gradle\daemon,pid=14632,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+03:49:34.378 [INFO] [org.gradle.internal.work.DefaultWorkerLeaseService] Using 4 worker leases.
+03:49:34.381 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for fileHashes, path C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\fileHashes\fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@47af9ab5
+03:49:34.381 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for file hash cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\fileHashes)
+03:49:34.382 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on file hash cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\fileHashes).
+03:49:34.382 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on file hash cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\fileHashes).
+03:49:34.385 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run build' started
+03:49:34.386 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1 started (1 worker(s) in use).
+03:49:34.386 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 8: acquired lock on root.1
+03:49:34.386 [INFO] [org.gradle.internal.buildevents.BuildLogger] Starting Build
+03:49:34.386 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Gradle user home: C:\Users\bobtal\.gradle
+03:49:34.386 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Current dir: C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging
+03:49:34.386 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Settings file: null
+03:49:34.386 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Build file: null
+03:49:34.386 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load build' started
+03:49:34.388 [DEBUG] [org.gradle.initialization.buildsrc.BuildSourceBuilder] Gradle source dir does not exist. We leave.
+03:49:34.388 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Evaluate settings' started
+03:49:34.388 [DEBUG] [org.gradle.initialization.DefaultGradlePropertiesLoader] Found env project properties: []
+03:49:34.388 [DEBUG] [org.gradle.initialization.DefaultGradlePropertiesLoader] Found system project properties: []
+03:49:34.389 [DEBUG] [org.gradle.initialization.ScriptEvaluatingSettingsProcessor] Timing: Processing settings took: 0.0 secs
+03:49:34.389 [INFO] [org.gradle.internal.buildevents.BuildLogger] Settings evaluated using settings file 'C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\settings.gradle'.
+03:49:34.389 [DEBUG] [org.gradle.caching.configuration.internal.DefaultBuildCacheConfiguration] Found class org.gradle.caching.local.internal.DirectoryBuildCacheServiceFactory registered for class org.gradle.caching.local.DirectoryBuildCache
+03:49:34.389 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Finalize build cache configuration' started
+03:49:34.389 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Finalize build cache configuration'
+03:49:34.389 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Finalize build cache configuration' completed
+03:49:34.390 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Evaluate settings'
+03:49:34.390 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Evaluate settings' completed
+03:49:34.390 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Load build'
+03:49:34.390 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load build' completed
+03:49:34.390 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure build' started
+03:49:34.390 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load projects' started
+03:49:34.391 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' from state Registered to Created
+03:49:34.391 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' to state Discovered.
+03:49:34.391 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' to state Created.
+03:49:34.392 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] Looking for project properties from: C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\gradle.properties
+03:49:34.392 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] project property file does not exists. We continue!
+03:49:34.392 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Load projects'
+03:49:34.392 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load projects' completed
+03:49:34.392 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsLoaded listeners' started
+03:49:34.392 [INFO] [org.gradle.internal.buildevents.BuildLogger] Projects loaded. Root project using build file 'C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\build.gradle'.
+03:49:34.392 [INFO] [org.gradle.internal.buildevents.BuildLogger] Included projects: [root project '1.17-Exercise-InvestigateLogging']
+03:49:34.392 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute 'rootProject {}' action' started
+03:49:34.392 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Cross-configure project :' started
+03:49:34.392 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Cross-configure project :'
+03:49:34.392 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Cross-configure project :' completed
+03:49:34.392 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute 'rootProject {}' action'
+03:49:34.392 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute 'rootProject {}' action' completed
+03:49:34.393 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify projectsLoaded listeners'
+03:49:34.393 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsLoaded listeners' completed
+03:49:34.393 [LIFECYCLE] [org.gradle.internal.logging.progress.ProgressLoggerFactory] 
+03:49:34.393 [LIFECYCLE] [org.gradle.internal.logging.progress.ProgressLoggerFactory] > Configure project :
+03:49:34.393 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure project :' started
+03:49:34.393 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 8: acquired lock on :
+03:49:34.393 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify beforeEvaluate listeners of :' started
+03:49:34.393 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify beforeEvaluate listeners of :'
+03:49:34.393 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify beforeEvaluate listeners of :' completed
+03:49:34.395 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.build-init to root project '1.17-Exercise-InvestigateLogging'' started
+03:49:34.395 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :init' started
+03:49:34.395 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :init'
+03:49:34.395 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :init' completed
+03:49:34.395 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.build-init to root project '1.17-Exercise-InvestigateLogging''
+03:49:34.395 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.build-init to root project '1.17-Exercise-InvestigateLogging'' completed
+03:49:34.396 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.wrapper to root project '1.17-Exercise-InvestigateLogging'' started
+03:49:34.396 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :wrapper' started
+03:49:34.396 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :wrapper'
+03:49:34.397 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :wrapper' completed
+03:49:34.397 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.wrapper to root project '1.17-Exercise-InvestigateLogging''
+03:49:34.397 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.wrapper to root project '1.17-Exercise-InvestigateLogging'' completed
+03:49:34.397 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.help-tasks to root project '1.17-Exercise-InvestigateLogging'' started
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :help' started
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :help'
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :help' completed
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :projects' started
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :projects'
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :projects' completed
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :tasks' started
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :tasks'
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :tasks' completed
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :properties' started
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :properties'
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :properties' completed
+03:49:34.398 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencyInsight' started
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :dependencyInsight'
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencyInsight' completed
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencies' started
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :dependencies'
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencies' completed
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildEnvironment' started
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :buildEnvironment'
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildEnvironment' completed
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :components' started
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :components'
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :components' completed
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :model' started
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :model'
+03:49:34.399 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :model' completed
+03:49:34.400 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependentComponents' started
+03:49:34.400 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :dependentComponents'
+03:49:34.400 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependentComponents' completed
+03:49:34.400 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.help-tasks to root project '1.17-Exercise-InvestigateLogging''
+03:49:34.400 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.help-tasks to root project '1.17-Exercise-InvestigateLogging'' completed
+03:49:34.400 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating root project '1.17-Exercise-InvestigateLogging' using build file 'C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\build.gradle'.
+03:49:34.401 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply script build.gradle to root project '1.17-Exercise-InvestigateLogging'' started
+03:49:34.404 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :hello' started
+03:49:34.405 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :hello'
+03:49:34.405 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :hello' completed
+03:49:34.406 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply script build.gradle to root project '1.17-Exercise-InvestigateLogging''
+03:49:34.406 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply script build.gradle to root project '1.17-Exercise-InvestigateLogging'' completed
+03:49:34.406 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.005 secs
+03:49:34.407 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify afterEvaluate listeners of :' started
+03:49:34.407 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify afterEvaluate listeners of :'
+03:49:34.407 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify afterEvaluate listeners of :' completed
+03:49:34.407 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 8: released lock on :
+03:49:34.407 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Configure project :'
+03:49:34.407 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure project :' completed
+03:49:34.407 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsEvaluated listeners' started
+03:49:34.407 [INFO] [org.gradle.internal.buildevents.BuildLogger] All projects evaluated.
+03:49:34.407 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify projectsEvaluated listeners'
+03:49:34.408 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsEvaluated listeners' completed
+03:49:34.408 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Configure build'
+03:49:34.408 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure build' completed
+03:49:34.408 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Calculate task graph' started
+03:49:34.408 [INFO] [org.gradle.execution.TaskNameResolvingBuildConfigurationAction] Selected primary task 'hello' from project :
+03:49:34.409 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskExecutionGraph] Timing: Creating the DAG took 0.0 secs
+03:49:34.409 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Calculate task graph'
+03:49:34.410 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Calculate task graph' completed
+03:49:34.410 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run tasks' started
+03:49:34.410 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify task graph whenReady listeners' started
+03:49:34.410 [INFO] [org.gradle.internal.buildevents.BuildLogger] Tasks to be executed: [task ':hello']
+03:49:34.410 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify task graph whenReady listeners'
+03:49:34.410 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify task graph whenReady listeners' completed
+03:49:34.410 [DEBUG] [org.gradle.execution.plan.DefaultPlanExecutor] Using 4 parallel executor threads
+03:49:34.411 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 8: acquired lock on :
+03:49:34.412 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2 started (1 worker(s) in use).
+03:49:34.412 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 8: acquired lock on root.1.2
+03:49:34.412 [INFO] [org.gradle.execution.plan.DefaultPlanExecutor] :hello (Thread[Daemon worker Thread 8,5,main]) started.
+03:49:34.414 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for executionHistory, path C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\executionHistory\executionHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@2ff46f78
+03:49:34.414 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for execution history cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\executionHistory)
+03:49:34.415 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on execution history cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\executionHistory).
+03:49:34.415 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on execution history cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\executionHistory).
+03:49:34.416 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for resourceHashesCache, path C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\fileHashes\resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheAccess@47af9ab5
+03:49:34.417 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for outputFiles, path C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\buildOutputCleanup\outputFiles.bin, access org.gradle.cache.internal.DefaultCacheAccess@6ad9bf80
+03:49:34.417 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for Build Output Cleanup Cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\buildOutputCleanup)
+03:49:34.418 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on Build Output Cleanup Cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\buildOutputCleanup).
+03:49:34.418 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on Build Output Cleanup Cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\buildOutputCleanup).
+03:49:34.419 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] 
+03:49:34.419 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] > Task :hello
+03:49:34.419 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :hello' started
+03:49:34.419 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Putting task artifact state for task ':hello' into context took 0.0 secs.
+03:49:34.420 [DEBUG] [org.gradle.internal.execution.impl.steps.SkipUpToDateStep] Determining if task ':hello' is up-to-date
+03:49:34.420 [INFO] [org.gradle.internal.execution.impl.steps.SkipUpToDateStep] Task ':hello' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+03:49:34.420 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter] Executing actions for task ':hello'.
+03:49:34.420 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute doAction for :hello' started
+03:49:34.420 [INFO] [org.gradle.api.Task] Before printing Hello World
+03:49:34.432 [QUIET] [system.out] Hello World
+03:49:34.432 [INFO] [org.gradle.api.Task] After printing Hello World
+03:49:34.432 [DEBUG] [org.gradle.api.Task] Catch me if you can
+03:49:34.432 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute doAction for :hello'
+03:49:34.432 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute doAction for :hello' completed
+03:49:34.432 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Removed task artifact state for {} from context.
+03:49:34.432 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Task :hello'
+03:49:34.432 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :hello' completed
+03:49:34.432 [INFO] [org.gradle.execution.plan.DefaultPlanExecutor] :hello (Thread[Daemon worker Thread 8,5,main]) completed. Took 0.02 secs.
+03:49:34.433 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 8: released lock on :
+03:49:34.433 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2 completed (1 worker(s) in use)
+03:49:34.433 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 8: released lock on root.1.2
+03:49:34.434 [DEBUG] [org.gradle.execution.plan.DefaultPlanExecutor] Execution worker [Thread[Execution worker for ':' Thread 2,5,main]] finished, busy: 0.0 secs, idle: 0.02 secs
+03:49:34.437 [DEBUG] [org.gradle.execution.plan.DefaultPlanExecutor] Execution worker [Thread[Execution worker for ':' Thread 3,5,main]] finished, busy: 0.0 secs, idle: 0.019 secs
+03:49:34.437 [DEBUG] [org.gradle.execution.plan.DefaultPlanExecutor] Execution worker [Thread[Execution worker for ':',5,main]] finished, busy: 0.0 secs, idle: 0.024 secs
+03:49:34.437 [DEBUG] [org.gradle.execution.plan.DefaultPlanExecutor] Execution worker [Thread[Daemon worker Thread 8,5,main]] finished, busy: 0.02 secs, idle: 0.006 secs
+03:49:34.438 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskExecutionGraph] Timing: Executing the DAG took 0.028 secs
+03:49:34.438 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Run tasks'
+03:49:34.438 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run tasks' completed
+03:49:34.438 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1 completed (0 worker(s) in use)
+03:49:34.438 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 8: released lock on root.1
+03:49:34.439 [LIFECYCLE] [org.gradle.internal.buildevents.BuildResultLogger] 
+03:49:34.439 [LIFECYCLE] [org.gradle.internal.buildevents.BuildResultLogger] BUILD SUCCESSFUL in 0s
+03:49:34.439 [LIFECYCLE] [org.gradle.internal.buildevents.TaskExecutionStatisticsReporter] 1 actionable task: 1 executed
+03:49:34.439 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Run build'
+03:49:34.439 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run build' completed
+03:49:34.444 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for execution history cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\executionHistory)
+03:49:34.444 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on execution history cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\executionHistory).
+03:49:34.446 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Build Output Cleanup Cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\buildOutputCleanup)
+03:49:34.446 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Build Output Cleanup Cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\buildOutputCleanup).
+03:49:34.448 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopping 0 deployment handles
+03:49:34.448 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopped deployment handles
+03:49:34.448 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\fileHashes)
+03:49:34.448 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (C:\work\Udacity Gradle Course\ud867\1.17-Exercise-InvestigateLogging\.gradle\5.1.1\fileHashes).
+03:49:34.459 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+03:49:34.485 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientInputForwarder] Dispatching close input message: org.gradle.launcher.daemon.protocol.CloseInput@8032d89
+03:49:34.485 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.CloseInput
+03:49:34.486 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result Success[value=org.gradle.launcher.exec.BuildActionResult@367ffa75] from daemon DaemonInfo{pid=14632, address=[ca629be7-e97c-4a24-b223-fad0ebe549f3 port:59656, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1547434140569, context=DefaultDaemonContext[uid=634ec844-0bf8-4f15-8011-afa4e0f4724d,javaHome=C:\Program Files\Java\jdk1.8.0_144,daemonRegistryDir=C:\Users\bobtal\.gradle\daemon,pid=14632,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be done).
+03:49:34.486 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Finished
+03:49:34.486 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: connection stop
