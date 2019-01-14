@@ -10,3 +10,7 @@ Exercises:
    file.
 
 */
+
+plugins {
+    id 'java'
+}
