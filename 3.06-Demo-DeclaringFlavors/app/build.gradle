@@ -79,12 +79,13 @@ requires a new Android SDK. We can enforce that like so:
 
 */
 
-//productFlavors {
-//    paid {
-//        minSdkVersion 23
-//    }
-//}
-
+android {
+    productFlavors {
+        paid {
+            minSdkVersion 23
+        }
+    }
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
