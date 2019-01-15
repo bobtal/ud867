@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'commons-logging:commons-logging:1.1.3'
+    testImplementation 'junit:junit:4.12'
+}
+
+configurations {
+    custom
+}
+
+dependencies {
+    custom 'com.google.guava:guava:18.0'
+}
+
+task copyDependencies (type: Copy) {
+    from configurations.custom
+    into 'build/libs'
+}
