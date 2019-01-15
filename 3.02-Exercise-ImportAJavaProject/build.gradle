@@ -20,3 +20,9 @@ solution file into this one.
 */
 
 //apply from: "solution.gradle"
+
+plugins {
+    id 'application'
+}
+
+mainClassName = 'com.udacity.gradle.JokeTeller'
