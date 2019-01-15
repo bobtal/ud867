@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greeting"> Welcome to the paid version of the Joke Telling App!</string>
+    <string name="joke"> Why did Mujo salted and threw away first banana, second banana and third banana? \nBecause salted bananas aren\'t for eating :)</string>
+</resources>
