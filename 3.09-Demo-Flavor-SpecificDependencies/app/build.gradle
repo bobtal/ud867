@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         applicationId "com.udacity.gradle.adsupported"
         minSdkVersion 15
-        targetSdkVersion 24
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -17,11 +17,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions 'tier'
     productFlavors{
         free {
+            dimension 'tier'
             applicationId "com.udacity.gradle.adsupported.free"
         }
         paid {
+            dimension 'tier'
             applicationId "com.udacity.gradle.adsupported.paid"
         }
     }
@@ -51,9 +54,9 @@ configurations are prefixed with.
 */
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:24.1.1'
-    freeCompile 'com.google.android.gms:play-services-ads:9.4.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    freeImplementation 'com.google.android.gms:play-services-ads:9.4.0'
 }
 
 /*
