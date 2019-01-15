@@ -19,3 +19,14 @@ Hint: For more information on using Gradle nightly builds, check out the
 Gradle website: http://gradle.org/gradle-nightly-build/
 
 */
+
+// 1. gradle wrapper
+// 2. gradlew tasks
+
+wrapper {
+    gradleVersion '2.14.1'
+}
+
+// 3. gradlew wrapper
+// 4. gradlew --version (returns 2.14.1)
+// 5. distributionUrl=https\://services.gradle.org/distributions-snapshots/gradle-5.2-20190115022437+0000-bin.zip
