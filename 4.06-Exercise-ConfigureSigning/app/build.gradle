@@ -20,9 +20,16 @@ The solution to this exercise is essentially Demo 4.05
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'udacity'
+            keyPassword 'password'
+            storeFile file('C:/work/UdacityGradleCourse/ud867/4.06-Exercise-ConfigureSigning/keystore.jks')
+            storePassword 'password'
+        }
+    }
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
-
     defaultConfig {
         applicationId "com.udacity.gradle.automaticsigning"
         minSdkVersion 15
@@ -34,11 +41,12 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:28.0.0'
 }
