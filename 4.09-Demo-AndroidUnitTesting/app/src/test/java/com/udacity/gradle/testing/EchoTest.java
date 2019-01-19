@@ -8,8 +8,8 @@ public class EchoTest {
         assert Echo.echo("hello").equals("hello");
     }
 
-    @Test
-    public void verifyLoggingEchoResponse() {
-        assert Echo.echo("hello", true).equals("hello");
-    }
+//    @Test
+//    public void verifyLoggingEchoResponse() {
+//        assert Echo.echo("hello", true).equals("hello");
+//    }
 }
